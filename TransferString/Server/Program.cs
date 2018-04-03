@@ -46,7 +46,7 @@ namespace Server
 
                 string message = Encoding.ASCII.GetString(messageBuffer, 0, messageLength);
 
-                Console.WriteLine(message + messageLength);
+                Console.WriteLine($"Byte {messageLength} {message}");
             }
         }
     }
